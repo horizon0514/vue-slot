@@ -1,5 +1,5 @@
 // Provider,初始化Manager以及EventBusSession，向 children 注入 Context
-import EventBus from 'eventemitter3';
+import EventBus from 'events';
 import { defineComponent, onUnmounted } from 'vue';
 import Manager from '../manager';
 import { createProvider } from '../context';

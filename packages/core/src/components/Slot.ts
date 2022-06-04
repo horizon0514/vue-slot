@@ -35,7 +35,8 @@ export interface Component {
  * </div>
  * ```
  */
-export const Slot = defineComponent<SlotProps>({
+export const Slot = defineComponent({
+	props: ['name'],
     setup(props: SlotProps) {
         const context = useCustomer();
         const components = reactive<Component[]>([]);

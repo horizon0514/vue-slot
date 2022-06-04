@@ -7,12 +7,11 @@
         "packages/*"
     ],
     "scripts": {
-        "build-package": "",
-        "dev": "vite dev",
-        "test": "npm run build-package"
+        "build": "vite build",
+        "dev": "vite dev"
     },
     "dependencies": {
-        "eventemitter3": "^3.0.0",
+        "events": "^3.3.0",
         "vue": "~3.2.36"
     },
     "devDependencies": {
