@@ -1,0 +1,32 @@
+{
+    "compileOnSave": true,
+    "include": ["packages/**/*.ts", "packages/**/*.tsx"],
+    "compilerOptions": {
+        "removeComments": false,
+        "declaration": true,
+        "declarationDir": "./build",
+        "target": "es6",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "preserve",
+        "lib": ["es2017", "dom"],
+        "typeRoots": ["./node_modules/@types"],
+        "types": ["node", "vite/client"],
+        "baseUrl": "./",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "downlevelIteration": true,
+        // "noUncheckedIndexedAccess": true,
+        // "noUnusedLocals": true,
+        // "noUnusedParameters": true,
+        // "strict": true,
+		"paths": {
+			"vue-slot": ["./packages/core/src/index.ts"]
+		}
+    }
+}

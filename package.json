@@ -1,0 +1,22 @@
+{
+    "name": "vue-slot",
+    "version": "1.0.0",
+    "private": true,
+    "description": "对Vue Slot 的增强，支持跨组件传递",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build-package": "",
+        "dev": "vite dev",
+        "test": "npm run build-package"
+    },
+    "dependencies": {
+        "eventemitter3": "^3.0.0",
+        "vue": "~3.2.36"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue-jsx": "^1.3.10",
+        "vite": "^2.9.9"
+    }
+}
