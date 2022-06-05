@@ -2,9 +2,10 @@
     "name": "vue-slot",
     "version": "1.0.0",
     "description": "对Vue Slot 的增强，支持跨组件传递",
-	"files": ["dist"],
-	"main": "./dist/vue-slot.umd.js",
+	"files": ["./"],
+	"main": "./vue-slot.umd.js",
 	"module": "./src/index.ts",
+	"types": "./index.d.ts",
     "dependencies": {
         "events": "^3.3.0",
         "vue": "~3.2.36"
